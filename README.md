@@ -6,8 +6,8 @@ Videoload é um projeto aberto livremente para uso e alteraçoes gerais.
 <<<<<
 
 Requisitos:
-API para request de midia YouTube -> pytube
-GUI -> PySimpleGUI
+- pytube
+- PySimpleGUI
 
 pip instalaçoes:
 -  pip install pysimplegui
