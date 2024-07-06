@@ -17,9 +17,12 @@ Linux:
 
 # Oque cada arquivo faz:
 ```main.py```: É o arquivo principal, onde chamamos a função de execução que integra a API **pytube** e a GUI.
+
 ```baixador_mp4.py```: Esse é o arquivo backend, que faz uso da API pytube para requisição de download de mídia MP4 do YouTube, que além do funcionamento principal, faz também a transferência automatizada do arquivo baixado para um diretorio específicado.
+
 ```Soft_UI.py```: Arquivo de definição da interface gráfica.
 Utiliza a biblioteca PySimpleGUI.
+
 ```settings.py```: Arquivo de configurações de interfaces Shell e GUI. Possui um array composto por todos o fundos background da GUI principal, onde o mesmo faz seleção aleatória do tema de fundo,l, como também exporta notas de interação para interface terminal.
 
 # Como executar: 
